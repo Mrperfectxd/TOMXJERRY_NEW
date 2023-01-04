@@ -415,3 +415,5 @@ pbot_10 : "Özel sohbet"
 pbot_11 : "Yetkili sohbet bulunamadı"
 pbot_12 : "Özel Bot Modu devre dışı.\n\nBotunuzu özel bot olarak kullanmak için **PRIVATE_BOT_MODE** = **True** olarak ayarladığınızdan emin olun"
 pbot_13 : "\n**<b>Getirilmeyen Sohbetler:</b>**\n\n"
+
+
