@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "Romeo-musicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/Romeo-RJ/Romeo-musicBot &&  cd Romeo-musicBot
+	git clone https://github.com/Romeo-RJ/RRomeo-musicBot &&  cd Romeo-musicBot
 }
 
 
