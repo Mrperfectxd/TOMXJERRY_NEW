@@ -1,3 +1,5 @@
+"""
+
 from pyrogram import Client, filters
 from pyrogram.types import *
 from pymongo import MongoClient
@@ -5,16 +7,19 @@ import requests
 import random
 import os
 import re
-from config.config import API_ID, API_HASH, STRING1, MONGO_DB_URI
+from config.config import API_ID, API_HASH, BOT_TOKEN, STRING1, MONGO_DB_URI
+from Romeo import app
 
 
 API_ID = API_ID
 API_HASH = API_HASH
 STRING = STRING1
+BOT_TOKEN = BOT_TOKEN
 MONGO_URL = MONGO_DB_URI
 
+bot = app
 
-bot = Client(STRING, API_ID, API_HASH)
+#bot = Client(STRING, API_ID, API_HASH)
 
 
 async def is_admins(chat_id: int):
@@ -298,3 +303,5 @@ async def vickprivatesticker(client: Client, message: Message):
                await message.reply_sticker(f"{hey}")
 
 #bot.run()
+
+"""
