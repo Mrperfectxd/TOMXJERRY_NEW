@@ -1,6 +1,5 @@
 flask
 gunicorn
-flask_restful
 aiofiles
 aiohttp
 asyncio
@@ -28,5 +27,5 @@ youtube-search
 youtube-search-python
 
 git+https://github.com/RRomeoRJ0143/rjs
-git+https://github.com/RRomeoRJ0143/rjyt
+git+https://github.com/yt-dlp/yt-dlp
 
