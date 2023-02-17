@@ -1,5 +1,6 @@
-flask==2.1.1
+flask
 gunicorn
+flask_restful
 aiofiles
 aiohttp
 asyncio
