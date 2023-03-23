@@ -8,7 +8,7 @@
 - Fork the repo then 
 - Tap below botton ☟︎︎︎☟︎︎︎☟︎︎︎ for deploy Romeo-musicBot 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RRomeo-RJ/Romeo-musicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://dashboard.heroku.com/new?template=https://github.com/RRomeo-RJ/Romeo-musicBot)
 
 
 
