@@ -51,21 +51,17 @@ async def init():
     )
     await userbot.start()
     await rj.start()
-
-"""
-    try:
-        await rj.stream_call(
-            "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
-        )
-    except NoActiveGroupCall:
-        LOGGER("Romeo").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group. If you ever ended voice chat in log group i will stop."
-        )
-        sys.exit()
-    except:
-        pass
-"""
-
+ #   try:
+  #      await rj.stream_call(
+  #          "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
+  #      )
+  #  except NoActiveGroupCall:
+   #     LOGGER("Romeo").error(
+    #        "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group. If you ever ended voice chat in log group i will stop."
+    #    )
+   #     sys.exit()
+ #   except:
+ #       pass
     await rj.decorators()
     LOGGER("Romeo").info("Music Bot Started Successfully")
     await idle()
