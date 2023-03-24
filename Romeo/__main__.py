@@ -51,6 +51,8 @@ async def init():
     )
     await userbot.start()
     await rj.start()
+
+"""
     try:
         await rj.stream_call(
             "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
@@ -62,6 +64,8 @@ async def init():
         sys.exit()
     except:
         pass
+"""
+
     await rj.decorators()
     LOGGER("Romeo").info("Music Bot Started Successfully")
     await idle()
