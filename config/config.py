@@ -27,7 +27,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Red-Wine")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗧𝘂𝗻𝗲 𝗠𝘂𝘀𝗶𝗰 ™")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", None).split())
@@ -46,9 +46,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kalakar_Sangram")
+    "SUPPORT_CHANNEL", "https://t.me/TuneMusicGroup")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Red_Wine_Op")
+    "SUPPORT_GROUP", "https://t.me/TuneMusicGroup")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
