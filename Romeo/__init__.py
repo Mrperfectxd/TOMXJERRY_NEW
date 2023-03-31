@@ -10,8 +10,7 @@ from .logging import LOGGER
 # Directories
 dirr()
 
-# git
-git()
+#git
 
 # Initialize Memory DB
 dbb()
