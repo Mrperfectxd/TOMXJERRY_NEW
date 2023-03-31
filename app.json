@@ -35,7 +35,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "Romeo-musicBot",
+        "value": "𝗧𝘂𝗻𝗲 𝗠𝘂𝘀𝗶𝗰 ™",
         "required": false
       },
       "SPOTIFY_CLIENT_ID": {
@@ -75,12 +75,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Fill the link of your group..",
-        "value": "https://t.me/RomeoBot_OP",
+        "value": "https://t.me/TuneMusicGroup",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Fill the link of channel.",
-        "value": "https://t.me/Romeo_OP",
+        "value": "https://t.me/TuneMusicGroup",
         "required": false
       }
     },
