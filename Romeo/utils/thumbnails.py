@@ -63,7 +63,7 @@ async def gen_thumb(videoid):
         images = random.choice(themes)
         border = random.choice(colors)
         image1 = Image.open(f"cache/thumb{videoid}.png")
-        image2 = Image.open(f"assets/rj/{images}.png")
+        image2 = Image.open(f"assets/rj/thumbnail.png")
         image3 = changeImageSize(1280, 720, image1)
         image4 = changeImageSize(1280, 720, image2)
         image5 = image3.convert("RGBA")
